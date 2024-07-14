@@ -9,5 +9,6 @@ def test_main_my_func(
     input_2,
     output,
 ):
+    """This is a function to test addition of two numbers"""
     assert output == my_func_add(input_1, input_2)
     assert output == my_func_add(input_1, input_2)
